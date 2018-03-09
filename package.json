@@ -1,5 +1,5 @@
 {
-    "name": "@iktakahiro/markdown-it-katex",
+    "name": "@cocalc/markdown-it-katex",
     "version": "3.0.3",
     "description": "Fast math support for markdown-it with KaTeX",
     "main": "index.js",
