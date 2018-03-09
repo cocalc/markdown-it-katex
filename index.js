@@ -165,7 +165,6 @@ module.exports = function math_plugin(md, options) {
         }
         catch(error){
             if(options.throwOnError){ console.log(error); }
-            if(options.onError) { options.onError(latex); }
             return "$" + latex + "$";
         }
     };
@@ -181,7 +180,6 @@ module.exports = function math_plugin(md, options) {
         }
         catch(error){
             if(options.throwOnError){ console.log(error); }
-            if(options.onError) { options.onError(latex); }
             return "$$" + latex + "$$";
         }
     }
