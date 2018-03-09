@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com:iktakahiro/markdown-it-katex.git"
+        "url": "git+ssh://git@github.com:cocalc/markdown-it-katex.git"
     },
     "keywords": [
         "markdown",
@@ -19,7 +19,7 @@
         "markdown-it-plugin",
         "markdown-it"
     ],
-    "author": "Takahiro Ethan Ikeuchi @iktakahiro",
+    "author": "John Jeng @johnjeng",
     "license": "MIT",
     "dependencies": {
         "katex": "^0.9.0"
