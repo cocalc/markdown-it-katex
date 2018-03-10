@@ -165,7 +165,7 @@ module.exports = function math_plugin(md, options) {
         }
         catch(error){
             if(options.throwOnError){ console.log(error); }
-            return "$" + latex + "$";
+            return '<div class="cocalc-katex-error">$' + latex + '$</div>';
         }
     };
 
@@ -180,7 +180,7 @@ module.exports = function math_plugin(md, options) {
         }
         catch(error){
             if(options.throwOnError){ console.log(error); }
-            return "$$" + latex + "$$";
+            return '<div class="cocalc-katex-error">$$' + latex + '$$</div>';
         }
     }
 
